@@ -8,8 +8,8 @@ use sdl2::keyboard::Keycode;
 use std::io::prelude::*;
 use std::env;
 
-const WINDOW_WIDTH: u32 = 480;
-const WINDOW_HEIGHT: u32 = 480;
+const WINDOW_WIDTH: u32 = 1120;
+const WINDOW_HEIGHT: u32 = 1000;
 const BG_COLOR: Color = Color{r: 255, g: 255, b: 255, a: 255};
 
 macro_rules! rect(($x:expr, $y:expr, $w:expr, $h:expr) => (sdl2::rect::Rect::new($x as i32, $y as i32, $w as u32, $h as u32)));
